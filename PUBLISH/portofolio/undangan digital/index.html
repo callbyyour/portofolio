@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Undangan Pernikahan — Ares & Kirana</title>
+
+<!-- GANTI DI SINI: font bisa diganti sesuai selera di fonts.google.com -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ SPLASH SCREEN (9:16) ============ -->
+  <section id="splash" class="splash">
+    <!-- GANTI DI SINI: ganti background-image di style.css (.splash-bg) dengan foto asli -->
+    <div class="splash-bg"></div>
+    <div class="splash-overlay"></div>
+    <div class="splash-content">
+      <p class="splash-eyebrow">The Wedding Of</p>
+      <h1 class="splash-text">Ares &amp; Kirana</h1>
+    </div>
+  </section>
+
+  <!-- ============ KONTEN UTAMA ============ -->
+  <div id="main-content" class="main-content">
+
+    <!-- HERO -->
+    <section id="hero" class="section hero">
+      <div class="starfield" id="parallaxStars"></div>
+
+      <div class="orbit-wrapper">
+        <div class="orbit-glow"></div>
+        <div class="orbit-ring">
+          <span class="orbit-planet"></span>
+        </div>
+        <!-- GANTI DI SINI: ganti src dengan foto asli -->
+        <img src="assets/profile.jpg" alt="Foto pengantin" class="profile-photo" onerror="this.src='https://placehold.co/300x300/1a1a2e/c9a468?text=Foto'">
+      </div>
+
+      <p class="hero-eyebrow reveal">Kami Akan Menikah</p>
+      <h2 class="hero-title reveal">Ares &amp; Kirana</h2>
+      <p class="hero-subtitle reveal">
+        Dengan penuh syukur &amp; sukacita, kami mengundang Anda untuk turut
+        hadir merayakan hari bahagia kami.
+      </p>
+      <button class="btn-outline reveal" id="btnScrollDown">Buka Undangan ↓</button>
+    </section>
+
+    <!-- KATA PENGANTAR -->
+    <section id="pembuka" class="section pembuka">
+      <p class="section-eyebrow reveal">Kata Pengantar</p>
+      <div class="glass-card quote-card reveal">
+        <span class="quote-mark">&ldquo;</span>
+        <!-- GANTI DI SINI: kutipan ayat suci / kata-kata pembuka -->
+        <p class="quote-text">
+          Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan
+          untukmu pasangan dari jenismu sendiri, supaya kamu cenderung dan
+          merasa tenteram kepadanya, dan dijadikan-Nya di antaramu rasa
+          kasih dan sayang.
+        </p>
+        <p class="quote-source">QS. Ar-Rum: 21</p>
+      </div>
+    </section>
+
+    <!-- DETAIL ACARA -->
+    <section id="utama" class="section utama">
+      <p class="section-eyebrow reveal">Save The Date</p>
+      <h3 class="section-title reveal">Detail Acara</h3>
+
+      <div class="glass-card couple-card reveal">
+        <div class="couple-name">
+          <h4>Ares Pratama</h4>
+          <p>Putra dari Bpk. ___ &amp; Ibu ___</p>
+        </div>
+        <div class="couple-divider">&amp;</div>
+        <div class="couple-name">
+          <h4>Kirana Ayu</h4>
+          <p>Putri dari Bpk. ___ &amp; Ibu ___</p>
+        </div>
+      </div>
+
+      <div class="detail-grid reveal">
+        <div class="glass-card detail-card">
+          <span class="detail-label">Hari</span>
+          <span class="detail-value">Sabtu</span>
+        </div>
+        <div class="glass-card detail-card">
+          <span class="detail-label">Tanggal</span>
+          <span class="detail-value">20 Desember 2026</span>
+        </div>
+        <div class="glass-card detail-card">
+          <span class="detail-label">Jam</span>
+          <span class="detail-value">10.00 WIB</span>
+        </div>
+        <div class="glass-card detail-card">
+          <span class="detail-label">Lokasi</span>
+          <span class="detail-value">Gedung Serbaguna, Bandung</span>
+        </div>
+      </div>
+
+      <div class="countdown reveal" id="countdown">
+        <div class="cd-box"><span id="cdDays">00</span><small>Hari</small></div>
+        <div class="cd-box"><span id="cdHours">00</span><small>Jam</small></div>
+        <div class="cd-box"><span id="cdMinutes">00</span><small>Menit</small></div>
+        <div class="cd-box"><span id="cdSeconds">00</span><small>Detik</small></div>
+      </div>
+    </section>
+
+    <!-- GOOGLE MAPS -->
+    <section id="lokasi" class="section lokasi">
+      <p class="section-eyebrow reveal">Petunjuk Arah</p>
+      <h3 class="section-title reveal">Lokasi Acara</h3>
+
+      <div class="glass-card map-card reveal">
+        <div class="map-embed">
+          <!-- GANTI DI SINI: ganti src dengan link embed Google Maps kamu -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=GANTI_DENGAN_LINK_EMBED_MAPS"
+            width="100%" height="100%" style="border:0;" allowfullscreen=""
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+        <a href="https://maps.google.com/?q=GANTI_DENGAN_LOKASI" target="_blank" class="btn-solid">Buka Google Maps</a>
+      </div>
+
+      <div class="turut-mengundang reveal">
+        <p class="section-eyebrow">Turut Mengundang</p>
+        <!-- GANTI DI SINI: daftar nama yang turut mengundang -->
+        <p class="tm-list">Keluarga Besar Bapak Ahmad &amp; Keluarga Besar Ibu Siti</p>
+      </div>
+    </section>
+
+    <!-- UCAPAN & DOA -->
+    <section id="ucapan" class="section ucapan">
+      <p class="section-eyebrow reveal">Guestbook</p>
+      <h3 class="section-title reveal">Ucapan &amp; Doa</h3>
+      <p class="ucapan-desc reveal">Doa dan ucapan Anda sangat berarti bagi kami.</p>
+
+      <button id="btnOpenForm" class="btn-outline reveal">Kirim Ucapan</button>
+
+      <div id="commentsStatus" class="comments-status">Memuat ucapan...</div>
+      <div id="commentsList" class="comments-list"></div>
+    </section>
+
+    <footer class="footer">
+      <p>Dibuat dengan ❤ — Ares &amp; Kirana, 2026</p>
+    </footer>
+  </div>
+
+  <!-- ============ MODAL FORM UCAPAN ============ -->
+  <div id="formModal" class="modal hidden">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-content glass-card">
+      <button class="modal-close" id="btnCloseForm" aria-label="Tutup">&times;</button>
+      <h4>Tulis Ucapan &amp; Doa</h4>
+      <form id="ucapanForm" novalidate>
+        <div class="field-group">
+          <input type="text" id="inputNama" placeholder="Nama Anda" maxlength="20" required>
+          <span class="char-count" id="countNama">0/20</span>
+        </div>
+        <p class="field-error hidden" id="errorNama"></p>
+
+        <div class="field-group">
+          <textarea id="inputPesan" placeholder="Tulis ucapan & doa Anda di sini..." maxlength="150" rows="4" required></textarea>
+          <span class="char-count" id="countPesan">0/150</span>
+        </div>
+        <p class="field-error hidden" id="errorPesan"></p>
+
+        <button type="submit" class="btn-solid" id="btnSubmit">Kirim Ucapan</button>
+      </form>
+      <p id="formError" class="form-error hidden"></p>
+    </div>
+  </div>
+
+  <!-- ============ FIREBASE ============ -->
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+  <script src="firebase-config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
