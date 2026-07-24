@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ares Ziandika Rabbani | Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="cursor"></div>
+<canvas id="particles"></canvas>
+
+<header>
+  <div class="logo-mark">A<span>/</span>RES</div>
+  <nav>
+    <a href="#" data-hover>Home</a>
+    <a href="#about" data-hover>Tentang</a>
+    <a href="#capability" data-hover>Skills</a>
+    <a href="#works" data-hover>Projects</a>
+    <a href="#contactSection" data-hover>Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div>
+    <div class="eyebrow">Everything about Ares, one place</div>
+    <h1 class="name">HI, I'M<br><span class="accent">ARES</span></h1>
+    <div class="role-line">
+      <span id="typed"></span><span class="caret"></span>
+    </div>
+    <p class="desc">
+      Saya membangun web yang rapi secara teknis dan bercerita secara visual —
+      dari baris kode sampai potongan gambar yang di-cut tepat waktu.
+    </p>
+  </div>
+
+  <div class="orbit-wrap">
+    <div class="ring glow">
+      <div class="dot"></div>
+    </div>
+    <div class="ring r2">
+      <div class="dot d2" style="top:auto; bottom:-2px; left:calc(50% - 2px);"></div>
+    </div>
+    <div class="ring r3"></div>
+    <div class="core">
+      <img src="asset/AAAA.png" alt="Foto Ares" class="core-image">
+      <div class="core-letter"><span></span></div>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="photo-wrap">
+    <img class="media-fill" src="asset/A.png" alt="Foto Ares"
+      onload="this.style.display='block'; this.nextElementSibling.style.display='none';"
+      onerror="this.style.display='none';">
+    <div class="photo-placeholder">
+      <div class="initials">AZR</div>
+      <div class="hint">Foto profil menyusul</div>
+    </div>
+    <div class="corner tl"></div>
+    <div class="corner br"></div>
+    <div class="photo-frame-label">
+      <span>PROFILE_01</span>
+      <span>● REC</span>
+    </div>
+  </div>
+
+  <div>
+    <div class="eyebrow">Tentang Saya</div>
+    <h2 class="title">LEBIH DARI <span>SEKADAR KODE</span></h2>
+
+    <div class="body-text">
+      <p>Perkenalkan, saya <strong>Ares Ziandika Rabbani</strong>, siswa Rekayasa Perangkat Lunak dengan minat besar di bidang pemrograman dan videografi.</p>
+      <p>Saya cenderung mengamati lingkungan baru dan beradaptasi secara perlahan. Namun, ketika diberi tanggung jawab, saya selalu berusaha menyelesaikan pekerjaan dengan baik serta menjadi pribadi yang dapat dipercaya.</p>
+      <p>Bagi saya, hal paling menyenangkan dari teknologi bukan hasil akhirnya, melainkan prosesnya. Membangun sesuatu dari nol selalu membawa saya pada pengetahuan baru. Setiap proyek menjadi kesempatan untuk belajar, mencoba, dan berkembang. Bagi saya, teknologi adalah cara mengubah ide yang sebelumnya hanya ada di kepala menjadi sesuatu yang nyata, lalu dapat digunakan atau dinikmati orang lain.</p>
+      <p>Ada tiga nilai yang selalu saya pegang: <strong>jujur, bertanggung jawab, dan dapat dipercaya</strong>. Ke depannya, saya ingin terus memperdalam berbagai bidang teknologi, kemudian membagikan pengalaman dan pengetahuan tersebut agar dapat bermanfaat bagi orang lain.</p>
+    </div>
+
+    <div class="stats-row">
+      <div class="stat">
+        <div class="num">3<em>+</em></div>
+        <div class="label">Tahun Belajar</div>
+      </div>
+      <div class="stat">
+        <div class="num">5<em>+</em></div>
+        <div class="label">Teknologi Dipelajari</div>
+      </div>
+      <div class="stat">
+        <div class="num">2</div>
+        <div class="label">Project Selesai</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="capability" id="capability">
+  <div class="cap-head">
+    <div class="eyebrow">My Capability</div>
+    <h2 class="cap-title">APA YANG BISA <span>SAYA LAKUKAN</span></h2>
+  </div>
+
+  <div class="cards">
+
+    <div class="card">
+      <div class="card-num">01</div>
+      <div class="icon-box">
+        <svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="13" rx="1.2"/><path d="M1 20h22" stroke-linecap="round"/><path d="M9 9l-2.5 2.5L9 14" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 9l2.5 2.5L15 14" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <h3 class="card-title">WEB DEVELOPMENT</h3>
+      <p class="card-desc">Membangun website yang modern, responsif, dan mudah digunakan dengan fokus pada performa, tampilan, serta pengalaman pengguna.</p>
+      <div class="stack-label">Tech Stack — hover untuk lihat</div>
+      <div class="stack">
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">Python</span>
+        <span class="tag">PHP</span>
+        <span class="tag">MySQL</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-num">02</div>
+      <div class="icon-box">
+        <svg viewBox="0 0 24 24"><rect x="2" y="5" width="15" height="14" rx="1.2"/><path d="M17 9.5l5-3v11l-5-3" stroke-linejoin="round"/></svg>
+      </div>
+      <h3 class="card-title">VIDEO EDITING</h3>
+      <p class="card-desc">Mengubah ide menjadi cerita visual melalui editing yang rapi, ritme yang tepat, dan penyampaian yang menarik.</p>
+      <div class="stack-label">Software — hover untuk lihat</div>
+      <div class="stack">
+        <span class="tag">Alight Motion</span>
+        <span class="tag">Picsart</span>
+        <span class="tag">CapCut</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="works" id="works">
+  <div class="section-head reveal" id="worksHead">
+    <div class="eyebrow">Selected Works</div>
+    <h2 class="works-title">FEATURED <span>WORKS</span></h2>
+    <p class="subtitle">Kumpulan project pilihan yang menggambarkan kemampuan saya di pengembangan web dan editing video.</p>
+  </div>
+
+  <div class="grid-row">
+
+    <div class="p-card reveal" data-delay="0">
+      <div class="thumb">
+        <img class="media-fill" src="di sini" alt="Thumbnail Web Project"
+          onload="this.style.display='block'; this.nextElementSibling.style.display='none';"
+          onerror="this.style.display='none';">
+        <div class="ph">WEB_PROJECT_THUMBNAIL</div>
+        <div class="open-tag">OPEN ↗</div>
+      </div>
+      <div class="p-body">
+        <h3>Nusantara Bites — Landing Page</h3>
+        <p>Website landing page untuk brand kuliner lokal. Dibuat untuk memperkenalkan menu dan mempermudah pemesanan online, dengan tampilan yang ringan dan navigasi yang jelas di semua perangkat.</p>
+        <div class="tags">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>MySQL</span>
+        </div>
+        <a href="undangan digital/index.html" class="btn-link">View Project <span class="arrow">→</span><span class="fill"></span></a>
+      </div>
+    </div>
+
+    <div class="p-card reveal" data-delay="150" id="videoProjectCard">
+      <div class="thumb">
+        <video id="videoProject" class="media-fill" muted loop playsinline preload="metadata"
+          onloadeddata="this.style.display='block'; this.nextElementSibling.style.display='none';"
+          onerror="this.style.display='none';">
+          <source src="asset/AAA.mp4" type="video/mp4">
+        </video>
+        <div class="ph">VIDEO_PROJECT_THUMBNAIL</div>
+        <div class="play-icon">
+          <svg viewBox="0 0 60 60"><circle cx="30" cy="30" r="28" stroke="#ff1f3d" stroke-width="1.4" fill="rgba(7,5,5,0.6)"/><path d="M25 20l16 10-16 10z" fill="#ff5b6e"/></svg>
+        </div>
+      </div>
+      <div class="p-body">
+        <h3>Senja di Kota — Cinematic Reel</h3>
+        <p>Video pendek bertema perjalanan sore hari, dibangun dengan ritme potongan yang tenang dan color grading hangat untuk menyampaikan suasana nostalgia.</p>
+        <div class="tags">
+          <span>CapCut</span><span>Alight Motion</span><span>PicsArt</span>
+        </div>
+        <a href="#" class="btn-link" id="openVideoModal">Watch Video <span class="arrow">→</span><span class="fill"></span></a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="video-modal" id="videoModal" aria-hidden="true">
+    <div class="video-modal-inner">
+      <button class="video-modal-close" id="closeVideoModal" aria-label="Tutup video">×</button>
+      <video id="modalVideo" controls playsinline preload="metadata">
+        <source src="asset/AAA.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+
+  <div class="collab reveal" data-delay="300" id="collabCard">
+    <div class="collab-media">
+      <video class="media-fill" id="collabVideo" muted loop playsinline preload="metadata"
+        poster="di sini"
+        onloadeddata="this.style.display='block';"
+        onerror="this.style.display='none';"
+        style="object-position:center; background:transparent;">
+        <source src="di sini" type="video/mp4">
+      </video>
+    </div>
+    <div class="collab-overlay">
+      <div class="collab-title">COLLABORATION<br><span>VIDEO</span></div>
+      <div class="collab-sub">Created with <em>@rekankarya</em></div>
+      <div class="hover-hint">Hover to Preview</div>
+    </div>
+    <div class="playing-tag"><span class="blink"></span>PLAYING</div>
+  </div>
+</section>
+
+<section class="achieve" id="achievements">
+  <div class="section-head" id="achHead">
+    <div class="eyebrow">Achievements</div>
+    <h2 class="achieve-title">PENCAPAIAN &amp; <span>SERTIFIKAT</span></h2>
+    <p class="subtitle">Kumpulan sertifikat dan pencapaian yang mencerminkan proses belajar saya secara berkelanjutan.</p>
+  </div>
+
+  <div class="showcase">
+    <div class="cert-frame" id="certFrame">
+      <div class="cert-img" id="certImg">
+        <img class="media-fill" id="certImgTag" src="" alt="Sertifikat"
+          onload="this.style.display='block'; document.getElementById('certImgPh').style.display='none';"
+          onerror="this.style.display='none'; document.getElementById('certImgPh').style.display='flex';">
+        <div class="ph-text" id="certImgPh" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;">CERTIFICATE_IMAGE_01</div>
+      </div>
+      <div class="zoom-hint">KLIK UNTUK PERBESAR</div>
+    </div>
+
+    <div class="cert-info" id="certInfo">
+      <h3 id="certTitle">Dasar Pemrograman Web</h3>
+      <div class="cert-meta">
+        <span id="certOrg">Dicoding Indonesia</span><span class="sep">|</span><span id="certYear">2023</span>
+      </div>
+      <p class="cert-desc" id="certDesc">Sertifikat penyelesaian pelatihan dasar pengembangan web meliputi HTML, CSS, dan JavaScript untuk membangun halaman web interaktif.</p>
+    </div>
+
+    <div class="controls">
+      <button class="nav-btn" id="prevBtn">←</button>
+      <div class="slider-indicator">
+        <span class="idx-current" id="idxCurrent">01</span>
+        <div class="track"><div class="fill" id="trackFill" style="width:20%"></div></div>
+        <span id="idxTotal">05</span>
+      </div>
+      <button class="nav-btn" id="nextBtn">→</button>
+    </div>
+  </div>
+</section>
+
+<div class="modal" id="modal">
+  <div class="modal-inner">
+    <button class="modal-close" id="modalClose">×</button>
+    <img class="media-fill" id="modalImgTag" src="" alt="Sertifikat besar"
+      style="position:static; width:100%; height:100%; object-fit:contain; display:none;"
+      onload="this.style.display='block'; document.getElementById('modalImg').style.display='none';"
+      onerror="this.style.display='none'; document.getElementById('modalImg').style.display='block';">
+    <div class="ph-text" id="modalImg">CERTIFICATE_IMAGE_01</div>
+  </div>
+</div>
+
+<section class="contact" id="contactSection">
+  <div>
+    <div class="eyebrow" id="cEyebrow">Get In Touch</div>
+    <h2 class="big-title" id="cTitle">LET'S BUILD<br>SOMETHING<br><span class="accent">GREAT</span><br>TOGETHER</h2>
+    <p class="contact-desc" id="cDesc">Terbuka untuk kesempatan magang, kolaborasi kreatif, dan proyek baru. Yuk buat sesuatu yang berarti bareng-bareng.</p>
+  </div>
+
+  <div class="cards-col">
+    <a href="https://wa.me/6285161356921" target="_blank" class="c-card" data-delay="0">
+      <div class="c-icon">
+        <svg viewBox="0 0 24 24"><path d="M20.5 11.5a8.5 8.5 0 1 1-3.8-7.1"/><path d="M17 3.5A8.46 8.46 0 0 0 12 2a8.5 8.5 0 0 0-8.34 10.06L2 22l10.1-1.62"/><path d="M8.5 9.5c0 3.5 2.5 6 6 6" stroke-linecap="round"/></svg>
+      </div>
+      <div class="c-body">
+        <div class="c-platform">WhatsApp</div>
+        <div class="c-handle">+62 851 613 569 21</div>
+      </div>
+      <div class="c-action">Open Chat <span class="arrow">→</span></div>
+    </a>
+
+    <a href="https://www.instagram.com/ares_z_r?igsh=MTYzcGNienkzd2pubw==" target="_blank" class="c-card" data-delay="150">
+      <div class="c-icon">
+        <svg viewBox="0 0 24 24"><rect x="2.5" y="2.5" width="19" height="19" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.2" cy="6.8" r="0.9" fill="#ff1f3d" stroke="none"/></svg>
+      </div>
+      <div class="c-body">
+        <div class="c-platform">Instagram</div>
+        <div class="c-handle">@ares_z_r</div>
+      </div>
+      <div class="c-action">Follow Me <span class="arrow">→</span></div>
+    </a>
+
+    <a href="https://www.tiktok.com/@halu_mode?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer" class="c-card" data-delay="300">
+      <div class="c-icon">
+        <svg viewBox="0 0 24 24"><path d="M15 3v10.5a3.5 3.5 0 1 1-3.2-3.48" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 3c0 3 2.2 5 5 5.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div class="c-body">
+        <div class="c-platform">TikTok</div>
+        <div class="c-handle">@ares.ziandika</div>
+      </div>
+      <div class="c-action">Watch My Videos <span class="arrow">→</span></div>
+    </a>
+  </div>
+</section>
+
+<footer class="site-footer" id="siteFooter">
+  <div class="footer-divider" id="fDivider"><div class="line-fill"></div></div>
+
+  <div class="footer-main">
+    <div class="footer-brand">
+      <div class="f-title" id="fTitle">ARES</div>
+      <p class="f-desc" id="fDesc">Building Digital Experiences<br>&amp;<br>Visual Stories.</p>
+    </div>
+    <div class="footer-credit" id="fCredit">
+      <div class="label">Designed &amp; Developed by</div>
+      <div class="name">Ares Ziandika Rabbani</div>
+      <div class="rights">© 2026 All Rights Reserved.</div>
+    </div>
+  </div>
+
+  <div class="footer-bottom-line"></div>
+
+  <div class="footer-closing" id="fClosing">
+    <span>See you in the next project.<span class="blink-cursor">|</span></span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
